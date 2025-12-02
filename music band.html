@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Band</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #111;
+            color: #fff;
+        }
+
+        header {
+            background: #222;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav {
+            background: #333;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .section h2 {
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
+        .gallery img {
+            width: 250px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .tour, .store {
+            width: 80%;
+            margin: auto;
+            color: #ddd;
+        }
+
+        .tour div, .store div {
+            background: #222;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #222;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>🔥 The RockStars Band 🔥</header>
+
+<nav>
+    <a href="#music">Music</a>
+    <a href="#tour">Tour Dates</a>
+    <a href="#store">Store</a>
+    <a href="#gallery">Gallery</a>
+</nav>
+
+<!-- MUSIC SECTION -->
+<div class="section" id="music">
+    <h2>🎵 Latest Track</h2>
+    <audio controls>
+        <source src="sample.mp3" type="audio/mpeg">
+    </audio>
+    <p>Listen to our new release!</p>
+</div>
+
+<!-- TOUR SECTION -->
+<div class="section" id="tour">
+    <h2>📅 Tour Dates</h2>
+    <div class="tour">
+        <div>🎤 Mumbai – Jan 20</div>
+        <div>🎤 Delhi – Feb 5</div>
+        <div>🎤 Bangalore – Feb 18</div>
+    </div>
+</div>
+
+<!-- STORE SECTION -->
+<div class="section" id="store">
+    <h2>🛍 Merchandise Store</h2>
+    <div class="store">
+        <div>T-Shirt – ₹799</div>
+        <div>Hoodie – ₹1299</div>
+        <div>Cap – ₹499</div>
+    </div>
+</div>
+
+<!-- GALLERY SECTION -->
+<div class="section" id="gallery">
+    <h2>📸 Band Gallery</h2>
+    <div class="gallery">
+        <img src="https://picsum.photos/250/200?random=3">
+        <img src="https://picsum.photos/250/200?random=4">
+        <img src="https://picsum.photos/250/200?random=5">
+    </div>
+</div>
+
+<footer>© 2025 RockStars Band</footer>
+
+</body>
+</html>
